@@ -2,6 +2,7 @@
 #include "vars.hpp"
 
 int main(){
+    // zmiana2
     std::cout << "bajo jajo" << std::endl;
     print_vars();
     inc_vars();

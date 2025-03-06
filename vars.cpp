@@ -15,3 +15,5 @@ void print_vars() {
             << "global_static: " << global_static << std::endl;
 
 }
+
+//zmiana

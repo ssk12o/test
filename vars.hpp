@@ -6,4 +6,6 @@ extern int global_extern;
 void inc_vars();
 void print_vars();
 
+//zmiana
+
 #endif 
