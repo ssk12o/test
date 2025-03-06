@@ -2,6 +2,7 @@
 #include "vars.hpp"
 
 int main(){
+    std::cout << "bajo jajo" << std::endl;
     print_vars();
     inc_vars();
     print_vars();
