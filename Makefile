@@ -12,7 +12,7 @@ vars.o: vars.cpp
 	g++ -c vars.cpp -o vars.o
 
 # 	lib greeter
-greeter.o: greeter.cpp greeter.hpp
+greeter.o: greeter.cpp
 	g++ -c greeter.cpp -o greeter.o
 
 libgreeter.a: greeter.o
@@ -22,7 +22,7 @@ libgreeter.a: greeter.o
 
 .PHONY: clean
 clean: 
-	rm -f program_1 program_1.o vars.o greeter.o libgreeter.a
+	rm -f program_1.o vars.o greeter.o libgreeter.a
 	clear
 
 .PHONY: gitt
